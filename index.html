@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NayeemTach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="#home" class="logo">NayeemTach</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+  </nav>
+</header>
+
+<section id="home" class="cover">
+  <div class="overlay">
+    <h1>Welcome to NayeemTach</h1>
+  </div>
+</section>
+
+<section id="cards" class="cards-section">
+  <div class="card">
+    <img src="images/mobile.jpg" alt="Mobile" />
+    <h2>Mobile</h2>
+    <p>High quality smartphones with latest features.</p>
+  </div>
+  <div class="card">
+    <img src="images/laptop.jpg" alt="Laptop" />
+    <h2>Laptop</h2>
+    <p>Powerful laptops for work and gaming.</p>
+  </div>
+  <div class="card">
+    <img src="images/computer.jpg" alt="Computer" />
+    <h2>Computer</h2>
+    <p>Reliable desktop computers for home and office.</p>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <h2>About NayeemTach</h2>
+  <p>
+    NayeemTach is a leading provider of quality electronics, offering a
+    wide range of mobile phones, computers, and laptops to suit your needs.
+    Our mission is to bring the best technology to you.
+  </p>
+</section>
+
+<section id="contact" class="contact-form-section">
+  <h2>Contact Us</h2>
+  <form id="contactForm" novalidate>
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <textarea id="message" placeholder="Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="formSuccess" class="success-message"></div>
+</section>
+
+<footer>
+  <p><em>&copy; 2025 NayeemTach</em></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
